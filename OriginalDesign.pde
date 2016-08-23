@@ -1,10 +1,14 @@
 void setup()
 {
-  size(100,100);
+  size(400,400);
 }
 void draw()
 {
-  ellipse(50,50,50,50);
+  fill(105,105,105);
+  noStroke();
+  ellipse(200,170,75,95);
+  stroke(255);
+  quad(175,130,225,130,275,250,200,250);
 }
 
 
