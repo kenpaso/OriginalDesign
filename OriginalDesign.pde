@@ -1,6 +1,24 @@
 void setup()
 {
   size(400,400);
+  background(120,185,46);
+  //Random Black Spots
+  for(int i=0; i<350; i++)
+  {
+  fill(0);
+  ellipse((int)(Math.random()*400),(int)(Math.random()*400),(int)(Math.random()*30),(int)(Math.random()*40));
+  }
+
+  //Random Green Spots
+  for(int i=0; i<300; i++)
+  {
+  fill(63,107,12);
+  ellipse((int)(Math.random()*400),(int)(Math.random()*400),(int)(Math.random()*30),(int)(Math.random()*40));
+  }
+
+
+
+
 }
 void draw()
 {
@@ -42,10 +60,13 @@ void draw()
   ellipse(210,200,10,10);
 
 //text
+fill(255,255,255);
 text("He was Innocent",152,300);
 text("BAPE",182,315);
 
 	}
+
+
  
 }
 
